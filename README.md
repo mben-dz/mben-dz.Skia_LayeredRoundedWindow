@@ -8,6 +8,8 @@ allocates a 32-bit ARGB DIBSection, wraps it inside an Skia 2D surface (TSkSurfa
 and presents smooth anti-aliased rounded corners, drop shadows, glassmorphism cards, and interactive
 buttons to Windows using the Win32 UpdateLayeredWindow API.
 
+[Youtube Video](https://youtu.be/oA2LKuwRmbA)
+
 ![](https://github.com/mben-dz/mben-dz.Skia_LayeredRoundedWindow/blob/main/snapshot.jpg)
 
 FEATURES:
@@ -59,6 +61,7 @@ INTERACTION:
 - Exit: Click the [X] button or press the [ESC] key.
 
 ![Snapshot Vcl](https://github.com/mben-dz/mben-dz.Skia_LayeredRoundedWindow/blob/main/VCL/snapshot.jpg)
+
 
 ARCHITECTURE:
 - RoundedWinApiForm.dpr   : Console entry point & message loop executor.
